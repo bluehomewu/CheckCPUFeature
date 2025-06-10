@@ -1,0 +1,29 @@
+==> 安裝/檢查 libcpuid
+==> 檢查 libcpuid 是否已安裝 (透過 pkg-config)
+找到 libcpuid 版本：0.8.0
+版本已 ≥ 0.8.0，無需安裝。
+
+==> 編譯 detect_with_libcpuid.cpp → detect_with_libcpuid.o
+==> 執行 detect_with_libcpuid.o
+Vendor      : ARM
+Brand       : Cortex-A76
+CPU Codename: Enyo
+Family      : 218825793 (ext: 0)
+Model       : 1 (ext: 0)
+Stepping    : 0
+
+=== Supported CPU Features ===
+advsimd
+crc32
+doublelock
+pmull
+sha1
+sha256
+lse
+rdm
+dpb
+fp16
+lrcpc
+bbm
+dotprod
+e2h0
