@@ -27,6 +27,7 @@ if [[ ! -f "$SRC" ]]; then
 fi
 echo "==> 編譯 $SRC → $OUT"
 g++ -std=c++17 -O2 \
+    -Wno-deprecated-declarations \
     `pkg-config --cflags libcpuid` \
     "$SRC" \
     `pkg-config --libs libcpuid` \
