@@ -20,3 +20,6 @@ CheckCPUFeature 是一個用於檢查 CPU 特性（指令集）的小工具，�
 ```bash
 ./RunMe.sh
 ```
+
+## Credits
+- [libcpuid](https://github.com/anrieff/libcpuid)
